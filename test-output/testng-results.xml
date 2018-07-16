@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+    <line>
+      <![CDATA[
+The application url is :- https://accounts.google.com/ServiceLogin/identifier?elo=1&flowName=GlifWebSignIn&flowEntry=AddSession]]>
+    </line>
+    <line>
+      <![CDATA[The test browser is :- chrome
+]]>
+    </line>
+    <line>
+      <![CDATA[TEST PASSED: element txt_email is displayed.]]>
+    </line>
+    <line>
+      <![CDATA[TEST PASSED: element btn_next is displayed.]]>
+    </line>
+    <line>
+      <![CDATA[TEST PASSED: element txt_password is displayed.]]>
+    </line>
+    <line>
+      <![CDATA[TEST PASSED: element btn_sign_in is displayed.]]>
+    </line>
+    <line>
+      <![CDATA[TEST PASSED: element text_profile_name is displayed.]]>
+    </line>
+    <line>
+      <![CDATA[get profile name as Welcome, barkha keshwani]]>
+    </line>
+    <line>
+      <![CDATA[TEST PASSED: element gmail_Icon is displayed.]]>
+    </line>
+    <line>
+      <![CDATA[TEST PASSED: element element_more is displayed.]]>
+    </line>
+    <line>
+      <![CDATA[element more is clicked ]]>
+    </line>
+    <line>
+      <![CDATA[TEST PASSED: element link_to_create_folder is displayed.]]>
+    </line>
+    <line>
+      <![CDATA[Link create new label is clicked ]]>
+    </line>
+    <line>
+      <![CDATA[TEST PASSED: element txt_label_name is displayed.]]>
+    </line>
+    <line>
+      <![CDATA[TEST PASSED: element btn_create_label is displayed.]]>
+    </line>
+    <line>
+      <![CDATA[btn_create_label is clicked ]]>
+    </line>
+    <line>
+      <![CDATA[checkbox is selected]]>
+    </line>
+    <line>
+      <![CDATA[TEST PASSED: element move_to_icon is displayed.]]>
+    </line>
+    <line>
+      <![CDATA[move to icon is clicked]]>
+    </line>
+    <line>
+      <![CDATA[TEST PASSED: element select_label_to_move is displayed.]]>
+    </line>
+    <line>
+      <![CDATA[Selected mails moved]]>
+    </line>
+    <line>
+      <![CDATA[
+]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="31718" started-at="2018-07-16T11:15:18Z" finished-at="2018-07-16T11:15:50Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="31718" started-at="2018-07-16T11:15:18Z" finished-at="2018-07-16T11:15:50Z">
+      <class name="com.qait.demo.tests.GmailTest">
+        <test-method status="PASS" signature="initializeVariable()[pri:0, instance:com.qait.demo.tests.GmailTest@490ab905]" name="initializeVariable" is-config="true" duration-ms="903" started-at="2018-07-16T16:45:18Z" finished-at="2018-07-16T16:45:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeVariable -->
+        <test-method status="PASS" signature="verifyUserGmailAccountLogin()[pri:0, instance:com.qait.demo.tests.GmailTest@490ab905]" name="verifyUserGmailAccountLogin" duration-ms="9922" started-at="2018-07-16T16:45:19Z" finished-at="2018-07-16T16:45:29Z">
+          <reporter-output>
+            <line>
+              <![CDATA[
+The application url is :- https://accounts.google.com/ServiceLogin/identifier?elo=1&flowName=GlifWebSignIn&flowEntry=AddSession]]>
+            </line>
+            <line>
+              <![CDATA[The test browser is :- chrome
+]]>
+            </line>
+            <line>
+              <![CDATA[TEST PASSED: element txt_email is displayed.]]>
+            </line>
+            <line>
+              <![CDATA[TEST PASSED: element btn_next is displayed.]]>
+            </line>
+            <line>
+              <![CDATA[TEST PASSED: element txt_password is displayed.]]>
+            </line>
+            <line>
+              <![CDATA[TEST PASSED: element btn_sign_in is displayed.]]>
+            </line>
+            <line>
+              <![CDATA[TEST PASSED: element text_profile_name is displayed.]]>
+            </line>
+            <line>
+              <![CDATA[get profile name as Welcome, barkha keshwani]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyUserGmailAccountLogin -->
+        <test-method status="PASS" signature="verifyFolderCreation()[pri:0, instance:com.qait.demo.tests.GmailTest@490ab905]" name="verifyFolderCreation" duration-ms="15255" started-at="2018-07-16T16:45:29Z" finished-at="2018-07-16T16:45:44Z">
+          <reporter-output>
+            <line>
+              <![CDATA[TEST PASSED: element gmail_Icon is displayed.]]>
+            </line>
+            <line>
+              <![CDATA[TEST PASSED: element element_more is displayed.]]>
+            </line>
+            <line>
+              <![CDATA[element more is clicked ]]>
+            </line>
+            <line>
+              <![CDATA[TEST PASSED: element link_to_create_folder is displayed.]]>
+            </line>
+            <line>
+              <![CDATA[Link create new label is clicked ]]>
+            </line>
+            <line>
+              <![CDATA[TEST PASSED: element txt_label_name is displayed.]]>
+            </line>
+            <line>
+              <![CDATA[TEST PASSED: element btn_create_label is displayed.]]>
+            </line>
+            <line>
+              <![CDATA[btn_create_label is clicked ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyFolderCreation -->
+        <test-method status="PASS" signature="movingMailToExistingLabel()[pri:0, instance:com.qait.demo.tests.GmailTest@490ab905]" name="movingMailToExistingLabel" duration-ms="5503" started-at="2018-07-16T16:45:44Z" finished-at="2018-07-16T16:45:50Z">
+          <reporter-output>
+            <line>
+              <![CDATA[checkbox is selected]]>
+            </line>
+            <line>
+              <![CDATA[TEST PASSED: element move_to_icon is displayed.]]>
+            </line>
+            <line>
+              <![CDATA[move to icon is clicked]]>
+            </line>
+            <line>
+              <![CDATA[TEST PASSED: element select_label_to_move is displayed.]]>
+            </line>
+            <line>
+              <![CDATA[Selected mails moved]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- movingMailToExistingLabel -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.qait.demo.tests.GmailTest@490ab905]" name="closeBrowser" is-config="true" duration-ms="123" started-at="2018-07-16T16:45:50Z" finished-at="2018-07-16T16:45:50Z">
+          <reporter-output>
+            <line>
+              <![CDATA[
+]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.qait.demo.tests.GmailTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

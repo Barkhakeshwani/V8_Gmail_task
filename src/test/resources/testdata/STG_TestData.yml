@@ -1,0 +1,18 @@
+baseUrl: http://qa.clickngrade.com/
+baseUrl_hris: https://hris.qainfotech.com/
+baseUrl_gmail: https://accounts.google.com/ServiceLogin/identifier?elo=1&flowName=GlifWebSignIn&flowEntry=AddSession
+
+  
+username: tarangsharma@qainfotech.com 
+password: Qait@123
+
+username_hris: Barkhakeshwani 
+password_hris: Barkha@321#
+
+emailId_gmail: barkhakeshwani09
+password_gmail: jhulelal 
+  
+email:
+    recepients: 
+        recepient1: priyadarshibharat@qainfotech.com
+        recepient2: umangtiwari@qainfotech.com
